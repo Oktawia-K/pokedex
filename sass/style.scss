@@ -39,7 +39,7 @@ body {
     }
 
     .pokeimage {
-        object-fit: cover;
+        object-fit: contain;
         max-height: 55vh;
         width: auto;
     }
