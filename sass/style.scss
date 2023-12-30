@@ -39,8 +39,9 @@ body {
     }
 
     .pokeimage {
-        max-height: 65vh;
-        aspect-ratio: 1/1;
+        object-fit: cover;
+        max-height: 55vh;
+        width: auto;
     }
 
     .centered {
@@ -117,6 +118,9 @@ body {
         }
         .frame {
             width: 95%;
+        }
+        .type {
+            font-size: medium;
         }
     }
 }
