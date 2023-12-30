@@ -1,5 +1,6 @@
 const input = document.querySelector("input");
-const button = document.querySelector("button");
+const button = document.querySelector(".look");
+const random = document.querySelector(".random");
 const error = document.querySelector(".error");
 const bgImage = document.querySelector(".bg-image");
 
@@ -55,7 +56,13 @@ const getPokemonByEnter = (e) => {
     }
 }
 
+function getRandom() {
+    input.value = Math.floor(Math.random() * 1025) + 1;
+    getPokemon();
+}
+
 getPokemon();
 
 button.addEventListener("click", getPokemon);
+random.addEventListener("click", getRandom);
 input.addEventListener("keypress", getPokemonByEnter);
