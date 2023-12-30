@@ -10,7 +10,7 @@ const pokeimage = document.querySelector(".pokeimage");
 const weight = document.querySelector("span.weight");
 const height = document.querySelector("span.height");
 
-function getPokemon(url = 'https://pokeapi.co/api/v2/pokemon/1/') {
+function getPokemon(url = `https://pokeapi.co/api/v2/pokemon/${Math.floor(Math.random() * 1025) + 1}`) {
     if (input.value != "") {
         url = `https://pokeapi.co/api/v2/pokemon/${input.value.toLowerCase()}/`
     }
