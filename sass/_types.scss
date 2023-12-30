@@ -1,0 +1,57 @@
+@import "_variables.scss";
+@import "_mixins.scss";
+
+.normal{
+    @include type($normal);
+}
+.fighting {
+    @include type($fighting)
+}
+.flying {
+    @include type($flying)
+}
+.poison {
+    @include type($poison)
+}
+.ground {
+    @include type($ground)
+}
+.rock {
+    @include type($rock)
+}
+.bug {
+    @include type($bug)
+}
+.ghost {
+    @include type($ghost)
+}
+.steel {
+    @include type($steel)
+}
+.fire {
+    @include type($fire)
+}
+.water {
+    @include type($water)
+}
+.grass {
+    @include type($grass)
+}
+.electric {
+    @include type($electric)
+}
+.psychic {
+    @include type($psychic)
+}
+.ice {
+    @include type($ice)
+}
+.dragon {
+    @include type($dragon)
+}
+.dark {
+    @include type($dark)
+}
+.fairy {
+    @include type($fairy)
+}

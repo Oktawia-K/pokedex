@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Who's that Pokémon?</title>
+</head>
+
+<body>
+    <div class="display">
+        <img src="./media/pexels-landscape.png" alt="" class="bg-image">
+
+        <div class="box">
+            <h1>Pokédex Preview</h1>
+            <div class="centered">
+                <input type="text" class="search" placeholder="Search that Pokémon!">
+                <button>🔍</button>
+            </div>
+            <span class="error"></span>
+            <div class="frame">
+                <div>
+                    <span class="pokemon"></span>
+                    <span class="number"></span>
+                </div>
+                <img src="https://cdn.discordapp.com/attachments/696711309835894865/1189968415335645335/image.png?ex=65a01772&is=658da272&hm=a2cd3a2771634f94c5338edc539de3c61f83d9a1d2a3cc7afd6000eb29c9cc51&"
+                    alt="" class="pokeimage">
+                <div class="type">
+                </div>
+                <div class="subinfo">
+                    <span class="weight"></span>
+                    <span class="height"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+<script src="main.js"></script>
+
+</html>

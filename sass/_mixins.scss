@@ -1,0 +1,8 @@
+@mixin type($type) {
+    background-color: $type;
+    border-radius: 2rem;
+    color:black;
+    text-align: center;
+    padding:0.5rem;
+    //font-size: medium;
+}
