@@ -1,3 +1,6 @@
+# [Simple Pokedex](https://oktawia-k.github.io/pokedex/)
+This is a simple Pokedex concept app that makes use of pokeapi.co and is styled with SASS. Click [here](https://oktawia-k.github.io/pokedex/) to go to the running site.
+## Image credits
 - Image by wavebreakmedia_micro on [Freepik](https://www.freepik.com/free-photo/punching-bags-rope-gym_8403063.htm#query=boxing%20ring&position=5&from_view=search&track=ais&uuid=c1f7d532-de25-4eb6-b142-93519d8192b3")
 - Photo by Steven Hylands from [Pexels](https://www.pexels.com/photo/five-sheeps-on-pasture-during-golden-hour-1650919/)
 - Photo by eberhard grossgasteiger from [Pexels](https://www.pexels.com/photo/down-angle-photography-of-red-clouds-and-blue-sky-844297/)
